@@ -1,5 +1,6 @@
     const { Client, LocalAuth } = require('whatsapp-web.js');
     const eventHandler = require('./handlers/eventHandler');
+    require('dotenv').config();
     const commandHandler = require('./handlers/commandHandler');
     const config = require('./config');
 
