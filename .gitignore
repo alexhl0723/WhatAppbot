@@ -3,7 +3,7 @@ node_modules/
 
 # Variables de entorno
 .env
-
+.env
 # Archivos de sesión de whatsapp-web.js
 .wwebjs_auth/
 .wwebjs_cache/
