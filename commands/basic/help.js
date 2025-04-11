@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
     name: 'help',
     description: 'Muestra todos los comandos disponibles',
-    execute(client, message, args) {
+    execute(client, quoted, args) {
         let helpText = '🤖 *COMANDOS DISPONIBLES* 🤖\n\n';
         
         // Read all command folders
@@ -24,6 +24,6 @@ module.exports = {
             helpText += '\n';
         }
         
-        message.reply(helpText);
+        quoted.reply(helpText);
     }
 };

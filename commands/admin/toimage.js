@@ -1,7 +1,7 @@
 const { MessageMedia } = require('whatsapp-web.js');
 
 module.exports = {
-    name: 'toimage',
+    name: 'nodaatoimage',
     description: 'Convierte una imagen "ver una vez" en una imagen normal y la guarda en el chat.',
     async execute(client, message, args) {
         if (!message.hasQuotedMsg) {

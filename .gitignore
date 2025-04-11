@@ -1,10 +1,5 @@
+.wwebjs_auth
+.wwebjs_cache
+.wwebjs_session
+.wwebjs_session.old
 node_modules
-wwebjs_auth
-wwebjs_cache
-.wwebjs_auth
-.wwebjs_cache
-.wwebjs_cache
-.wwebjs_auth
-reset-auth.txt
-package-lock.json
-pnpm-lock.yaml

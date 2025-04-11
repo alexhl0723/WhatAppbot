@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const config = require('../config');
 const logger = require('../utils/logger');
 
@@ -33,7 +34,7 @@ function handleMessage(client, message) {
     const args = message.body.slice(prefix.length).trim().split(/ +/);
     const commandName = args.shift().toLowerCase();
     
-    // Check if command exists
+    // verifica si el comando existezzz
     if (!commands.has(commandName)) return;
     
     // Get command and execute it
