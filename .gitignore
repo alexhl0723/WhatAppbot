@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Variables de entorno
+.env
+.env
+# Archivos de sesión de whatsapp-web.js
+.wwebjs_auth/
+.wwebjs_cache/
+.wwebjs_session
+.wwebjs_session.old
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+mewin
+
+
+wwebjs-bot/.env
